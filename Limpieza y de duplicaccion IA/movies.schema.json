@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Movie",
+  "type": "object",
+  "properties": {
+    "movie": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "year":  { "type": "number", "minimum": 1890 },
+        "director": { "type": "string" }
+      },
+      "required": ["title", "year", "director"]
+    }
+  },
+  "required": ["movie"]
+}

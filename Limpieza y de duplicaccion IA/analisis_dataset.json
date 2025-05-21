@@ -1,0 +1,32 @@
+{
+    "cobre_quemado": {
+        "total": 1357,
+        "duplicadas": 701,
+        "limpias": 656
+    },
+    "copper_bus_bar": {
+        "total": 1188,
+        "duplicadas": 792,
+        "limpias": 396
+    },
+    "corroded_copper": {
+        "total": 1133,
+        "duplicadas": 739,
+        "limpias": 394
+    },
+    "current_collector_sliding_contact_collector": {
+        "total": 1274,
+        "duplicadas": 947,
+        "limpias": 327
+    },
+    "grietas": {
+        "total": 1538,
+        "duplicadas": 658,
+        "limpias": 880
+    },
+    "rail_electrified_monorail_system": {
+        "total": 1155,
+        "duplicadas": 785,
+        "limpias": 370
+    }
+}

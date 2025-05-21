@@ -1,0 +1,13 @@
+train: images
+val: images
+test: images
+
+nc: 6
+names: [
+  'burned_copper',
+  'copper_bus_bar',
+  'corroded_copper',
+  'crack',
+  'current_collector_sliding_contact_collector',
+  'rail-electrified-monorail-system'
+]

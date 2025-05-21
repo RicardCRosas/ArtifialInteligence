@@ -1,0 +1,84 @@
+🧠 INFORME COMPLETO DE ENTRENAMIENTO - YOLOv11 SEGMENTACIÓN
+===========================================================
+📁 Modelo: runs/segment/train9/weights/best.pt
+
+📈 MÉTRICAS GENERALES (detección)
+- Precisión media:        0.4040
+- Recall medio:           0.3129
+- mAP@0.5:                0.2921
+- mAP@0.5:0.95:           0.2046
+- Último box loss:        0.5907
+
+📈 MÉTRICAS GENERALES (segmentación)
+- Precisión media (mask): 0.3434
+- Recall medio (mask):    0.2734
+- mAP@0.5 (mask):          0.2453
+- mAP@0.5:0.95 (mask):     0.1722
+- Último seg loss:        1.1553
+
+📊 DETALLES DEL MODELO
+- Parámetros totales: 2,835,738
+- Capas: 265
+- GFLOPs aproximados: 10.4
+
+🔍 RESULTADOS POR CLASE:
+Clase: 0
+  - Box(P):     0.199
+  - Box(R):     0.100
+  - Box(mAP50): 0.039
+  - Box(mAP95): 0.035
+  - Mask(P):    0.198
+  - Mask(R):    0.100
+  - Mask(mAP50):0.039
+  - Mask(mAP95):0.032
+
+Clase: 1
+  - Box(P):     0.438
+  - Box(R):     0.314
+  - Box(mAP50): 0.277
+  - Box(mAP95): 0.220
+  - Mask(P):    0.437
+  - Mask(R):    0.314
+  - Mask(mAP50):0.276
+  - Mask(mAP95):0.218
+
+Clase: 2
+  - Box(P):     0.690
+  - Box(R):     0.286
+  - Box(mAP50): 0.402
+  - Box(mAP95): 0.300
+  - Mask(P):    0.512
+  - Mask(R):    0.214
+  - Mask(mAP50):0.318
+  - Mask(mAP95):0.216
+
+Clase: 3
+  - Box(P):     0.397
+  - Box(R):     0.395
+  - Box(mAP50): 0.361
+  - Box(mAP95): 0.202
+  - Mask(P):    0.315
+  - Mask(R):    0.316
+  - Mask(mAP50):0.261
+  - Mask(mAP95):0.120
+
+Clase: 4
+  - Box(P):     0.472
+  - Box(R):     0.566
+  - Box(mAP50): 0.589
+  - Box(mAP95): 0.434
+  - Mask(P):    0.486
+  - Mask(R):    0.588
+  - Mask(mAP50):0.550
+  - Mask(mAP95):0.437
+
+Clase: 5
+  - Box(P):     0.229
+  - Box(R):     0.217
+  - Box(mAP50): 0.085
+  - Box(mAP95): 0.036
+  - Mask(P):    0.114
+  - Mask(R):    0.108
+  - Mask(mAP50):0.028
+  - Mask(mAP95):0.009
+
